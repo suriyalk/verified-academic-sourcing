@@ -20,9 +20,19 @@ The two versions are kept separately rather than merged into one lowest-common-d
 1. Zip the `claude-skill/` folder (or its contents) into a `.skill` file, or upload it as-is wherever your Claude surface accepts skill folders.
 2. Once installed, it triggers automatically whenever you ask Claude to find sources, build a reference list, check an existing bibliography, or write academic content that includes specific facts or figures.
 
-## Using the universal version (ChatGPT, Gemini, etc.)
+## Using the universal version (ChatGPT, Gemini, Copilot, etc.)
 
-See the "Setup notes by platform" section at the end of `universal/verified-academic-sourcing-instructions.md` for exact steps — it covers Custom GPTs, Gemini Gems, plain ChatGPT sessions, and generic API system prompts.
+The fastest way for most people, and the one that works on free plans: upload both files in `universal/` directly into your chat, then add one instruction telling the assistant to actually follow them.
+
+1. Upload `verified-academic-sourcing-instructions.md` and `nz-apa7-formatting-reference.md` into the conversation.
+2. In the same message, add something like:
+
+   > "Please follow the verification protocol in verified-academic-sourcing-instructions.md for this entire conversation — don't present any citation or specific fact as real unless you've actually checked it with live search. Use nz-apa7-formatting-reference.md for citation formatting."
+
+   Uploading the files alone isn't enough — without this instruction, the assistant may just treat them as reference material rather than binding rules.
+3. That's it. This works on ChatGPT Free, Gemini, Copilot, and most other assistants with file upload and web search — no Custom GPT, Gem, or paid tier required. It's scoped to that single conversation, so repeat steps 1-2 in each new chat.
+
+For a more persistent setup (Custom GPTs, Gemini Gems, generic API system prompts, or Microsoft Copilot's Agent Builder/Copilot Studio), see the full "Setup notes by platform" section at the end of `universal/verified-academic-sourcing-instructions.md`.
 
 ## What it does
 
