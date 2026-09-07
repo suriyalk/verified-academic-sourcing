@@ -98,6 +98,12 @@ If a student asks you to "just make one up that fits" or to keep a source you've
 
 **ChatGPT (regular chat, no Custom GPT):** Account-level Custom Instructions have a short character limit and won't fit this whole document. Instead, paste this document as the first message in a chat (or a Project's instructions, if using ChatGPT Projects) and ask the model to follow it for the rest of the conversation. Confirm browsing/search is turned on.
 
+**Easiest method — file upload (works on free plans, any assistant that accepts file attachments):** Upload both `verified-academic-sourcing-instructions.md` and `nz-apa7-formatting-reference.md` directly into the chat. Uploading alone isn't enough — the assistant won't treat the file as standing rules just because it's attached. Follow the upload with an explicit instruction in the same message, for example:
+
+> "Please follow the verification protocol in verified-academic-sourcing-instructions.md for this entire conversation — don't present any citation or specific fact as real unless you've actually checked it with live search. Use nz-apa7-formatting-reference.md for citation formatting."
+
+This works on ChatGPT Free, Gemini, Copilot, and most other assistants with file upload and web search, without needing a Custom GPT, Gem, or any paid tier. The one limitation: it's scoped to that conversation, so repeat the upload and instruction in each new chat unless your platform has a persistent project/knowledge feature.
+
 **Gemini (Gems):** Paste this document into a Gem's instructions field, and attach the companion NZ formatting file as a knowledge file if the Gem supports file attachments. Confirm the Gem has web access enabled.
 
 **Any API-based assistant:** Use this document as the system prompt, with web search / browsing enabled as a tool. Append the NZ formatting reference file's content directly if your context window allows it, since API system prompts don't have a separate "knowledge" concept.
