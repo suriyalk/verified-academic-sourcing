@@ -48,6 +48,7 @@ For a more persistent setup (Custom GPTs, Gemini Gems, generic API system prompt
 - A list of 20 real Harvard-style references — correctly verified genuine, well-known papers with specific cross-source evidence rather than a bare "looks fine."
 - A list of 20 deliberately fabricated references — caught the fabrication pattern (nonexistent journals, generic-phrase "authors," uniform page numbers) and refused to write the essay citing them as real, offering real alternatives instead.
 - A direct head-to-head against the same prompt without the skill: the unguarded version fabricated a citation that wasn't even present in the original reference list it was given.
+- Independent real-world use on a 25-source reference list for someone else's research: caught a citation date that was off by a year and a page range that didn't match the author's own institutional listing, both flagged before reaching the final draft.
 
 ## License
 
