@@ -34,6 +34,11 @@ The fastest way for most people, and the one that works on free plans: upload bo
 
 For a more persistent setup (Custom GPTs, Gemini Gems, generic API system prompts, or Microsoft Copilot's Agent Builder/Copilot Studio), see the full "Setup notes by platform" section at the end of `universal/verified-academic-sourcing-instructions.md`.
 
+## Platform tutorials
+
+- **chatgpt-custom-gpt-tutorial.md** — building this as a Custom GPT, including current account-type restrictions (personal ChatGPT accounts can't create new GPTs as of mid-2026) and the file-upload fallback for everyone else.
+- **copilot-agent-tutorial.md** — building this as a Microsoft 365 Copilot agent in Agent Builder, including working notes on the Knowledge/Web search setup and SharePoint link pitfalls. 
+
 ## What it does
 
 - Verifies every citation via live search before including it, cross-checking metadata across independent sources rather than trusting a single hit or a self-constructed DOI link
